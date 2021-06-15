@@ -63,42 +63,42 @@ public class Car {
 	
 	
 	//All setter methods
-		public void setCar(String a) {
-			this.car = a;
-		}
+	public void setCar(String a) {
+		this.car = a;
+	}
 		
-		public void setMPG(double a) {
-			this.mpg = a;
-		}
+	public void setMPG(double a) {
+		this.mpg = a;
+	}
 		
-		public void setCylinders(int a) {
-			this.cylinders = a;
-		}
+	public void setCylinders(int a) {
+		this.cylinders = a;
+	}
+	
+	public void setDisplacement(double a) {
+		this.displacement = a;
+	}
+	
+	public void setHorsepower(double a) {
+		this.horsepower = a;
+	}
 		
-		public void setDisplacement(double a) {
-			this.displacement = a;
-		}
+	public void setWeight(double a) {
+		this.weight = a;
+	}
+	
+	public void setAcceleration(double a) {
+		this.acceleration = a;
+	}
+	
+	public void setModel(int a) {
+		this.model = a;
+	}
 		
-		public void setHorsepower(double a) {
-			this.horsepower = a;
-		}
-		
-		public void setWeight(double a) {
-			this.weight = a;
-		}
-		
-		public void setAcceleration(double a) {
-			this.acceleration = a;
-		}
-		
-		public void setModel(int a) {
-			this.model = a;
-		}
-		
-		public void setOrigin(String a) {
-			this.origin = a;
-		}
-		
+	public void setOrigin(String a) {
+		this.origin = a;
+	}
+	
 		
 }
 

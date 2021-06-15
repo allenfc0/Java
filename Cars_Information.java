@@ -8,6 +8,7 @@ public class Cars_Information {
 	String path = "D:\\Program Files\\PerScholas\\Week 3-Java\\Res\\cars.csv";
 	
 	
+	
 	try {
 		File doc = new File(path);
 		Scanner sc = new Scanner(doc);
@@ -29,4 +30,14 @@ public class Cars_Information {
 		
 	}
 	}
+	
+	
+//	public ArrayList<Cars> setCarsInformation() {
+//		
+//	}
+//	
+//	public void getCarsInformation() {
+//		
+//	}
+	
 }

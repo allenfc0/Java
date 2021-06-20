@@ -3,7 +3,6 @@ package NIO;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.nio.ByteBuffer;
-//import java.nio.CharBuffer;
 import java.nio.channels.FileChannel;
 
 public class Runner {
@@ -22,7 +21,7 @@ public class Runner {
 		
 		 //ByteBuffer bufferfile  =  ByteBuffer.allocate(200);
 		
-		  long filesize =  inchanel.size();
+		  long filesize = inchanel.size();
 		  ByteBuffer bufferfile  =  ByteBuffer.allocate( (int) filesize);
 		 // read date from a channel into buffer
 		 
